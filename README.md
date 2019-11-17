@@ -1,10 +1,3 @@
-#include <iostream>
- 
-using namespace std;
- 
-int main() {
- 
-   printf("Hellow World ");
-   
-    return 0;
-}
+Golam Hakkani Mim
+Computer Science && Engineering
+Pabna University Of science && Technology
