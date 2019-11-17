@@ -1,0 +1,378 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Personal Webside
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Golam Hakkani
+	Author URI: http://www.Mim  Hakkani.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header-section
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Typography ************************/
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800|Roboto:400,700&display=swap');
+
+body, p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	line-height: 1.3em;
+	font-weight: 400;
+
+	/*font-family: 'Raleway', sans-serif;*/
+}
+
+/**************** 2. Header Area ********/
+
+.Header-section{
+	background-image: url(images/background.jpg);
+	height: 920px;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+} 
+
+.menu-bars {
+	/* float: right; */
+	color: white;
+	font-size: 31px;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+.menu-bars i{
+    border: 2px solid white;
+	padding: 7px;	
+}
+.menubar{
+	display: none;
+}
+.menubar ul{
+	text-align: center;
+	margin-top: 10px;
+}
+.menubar ul li{
+	display: block;
+}
+.menubar ul li a {
+	margin: 0px;
+	font-size: 22px;
+	letter-spacing: 3px;
+	margin-top: 1;
+	font-weight: 700;
+}
+.header-top{}
+.logo-section img{
+	/* float: left; */
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+.header-content {
+	position: absolute;
+	width: 642px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	height: 300px;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.header-content h2 {
+	color: white;
+	font-size: 67px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 701;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	border-top: 4px solid #99B4BF;
+	border-bottom: 4px solid #99B4BF;
+	padding: 10px 0px;
+	margin-bottom: 23px;
+	width: 87%;
+	overflow: hidden;
+}
+.header-content ul li{
+	display: inline-block;
+}
+.header-content ul li a {
+	color: #B4BEC7;
+	font-size: 26px;
+	margin-right: 10px;
+}
+
+/*  About Area */
+
+.about-area{
+	height:auto;
+	padding-top: 100px;
+}
+.about-content{}
+.about-content h4 {
+	color: #646464;
+	padding: 20px 0px;
+	font-size: 19px;
+}
+.about-content p {
+	color: #868686;
+	line-height: 33px;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.btnn {
+	padding: 10px 60px;
+	margin-top: 31px;
+	font-weight: bold;
+}
+
+/*working Area */
+.working-area {
+	height: auto;
+	background-color: #F6F6F6;
+	padding: 74px;
+}
+.process{}
+.process h4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	margin: 15px 0px;
+}
+.process p {
+	/* width: 115%; */
+	/* padding: auto; */
+	color: #727272;
+	font-size: 19px;
+	padding: 10px 0px;
+}
+.box{
+	height: 280px;
+	width: 280px;
+	background-color: #11C6FD;
+	position: relative;
+	margin-bottom: 5px;
+}
+.box1{
+	height: 280px;
+	width: 280px;
+	background-color: #845AEC;
+	position: relative;
+	margin-bottom: 5px;
+}
+.box2{
+	height: 280px;
+	width: 280px;
+	background-color:#002454;
+	position: relative; 
+	margin-bottom: 5px;
+}
+.box3{
+	height: 280px;
+	width: 280px;
+	background-color: #FF2B4B;
+	position: relative;
+	margin-bottom: 5px;
+}
+.box33{
+    height: 280px;
+	width: 550px;
+	background-color: orange;
+	position: relative;
+	margin-bottom: 5px;
+}
+.box-mid{
+	position: absolute;
+	height: 150px;
+	width: 200px;
+	top: 62px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+}
+.box-mid img {
+	margin-bottom: 27px;
+}
+.box-mid h5 {
+	color: white;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* Latest work area */
+.working-area2 {
+	height: auto;
+	background-color: #F6F6F6;
+	padding: 74px;
+	margin-top: 10px;
+}
+.navbar {
+	height: 60px;
+}
+.navbar ul{
+	text-align: center;
+}
+.navbar ul li{
+	display: inline-block;
+	position: relative;
+
+}
+.navbar ul li a{
+	padding: 10px 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white!important
+
+	
+}
+
+.navbar ul ul {
+	display: none;
+	position: absolute;
+	top: 28px;
+	left: 0;
+	background-color: blue;
+
+
+}
+.navbar ul ul li a{
+		padding: 10px;
+		font-weight: bold;
+		text-transform: uppercase;
+	    color: white!important;
+	    display: block;
+
+}
+.navbar ul li:hover ul
+{
+	display: block;
+}
+.navbar ul li:hover, .active{
+	background-color: red;
+}
+
+.mixx img{
+	height: 400px;
+	width: 400px;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+ .amni{
+ 	margin: 30px auto;
+ 	text-align: center;
+ 	display: block;
+ }
+ .mixitup{
+ 	background: #F6F6F6;
+ }
+ .contact{
+ 	letter-spacing: 1px;
+	font-family: 'Raleway', sans-serif;
+ }
+.contact h2, .Address1 h2 {
+	font-weight: bold;
+	padding: 10px 0px;
+	color: white;
+	text-shadow: 1px 1px 11px #AFDDB1;
+}
+  .contact p{
+  	font-family: arial;
+  }
+.contact{
+	background-image: url(images/background.jpg);
+	height: auto;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+}
+.Address1 {
+	background-color: #57637D;
+	height: 183px;
+	padding-top: 0px;
+	text-align: center;
+	width: 78%;
+	display: block;
+	margin: 23px auto;
+}
+.footer{
+	background-color: #282923;
+	height: 70px;
+	color: white;
+	text-align:center;
+}
+.footer ul {
+	text-align: center;
+	width: 40%;
+	margin: auto;
+}
+.footer ul li{
+	display: inline-block;
+	
+}
+.footer ul li a {
+	color: white;
+	padding:0px 5px;
+}
+.footer p{
+	margin-top: 5px;
+	font-size: 15px;
+	color: grey;
+}
+.social{
+	padding-top: 10px;
+	display: block;
+	overflow: hidden;
+}
+.lb-data .lb-caption {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1em;
+	color: red;
+}
+.scrolltop {
+	height: 80px;
+	width: 80px;
+	background-color: red;
+	float: right;
+	position: fixed;
+	bottom: 100px;
+	right: 20px;
+	display: none;
+}
+.scrolltop i {
+	color: white;
+	font-size: 52px;
+	text-align: center;
+	margin: auto;
+	/* display: block; */
+	top: 10px;
+	left: 0;
+	right: 0;
+	border: 0;
+	position: absolute;
+}
